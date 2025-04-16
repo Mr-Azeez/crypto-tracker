@@ -7,7 +7,7 @@ import CoinContextProvider from './context/CoinContext.jsx'
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/crypto-tracker'>
       <CoinContextProvider>
         <App />
       </CoinContextProvider>

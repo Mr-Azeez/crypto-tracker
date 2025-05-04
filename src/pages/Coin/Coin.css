@@ -40,6 +40,13 @@
     font-size: 44px;
     font-weight: 500;
 }
+.option {
+    padding: 5px 8px;
+    border-radius: 6px;
+    border: 2px solid white;
+    background: transparent;
+    color: #4bc0c0;
+}
 
 .coin-chart {
     max-width: 600px;
